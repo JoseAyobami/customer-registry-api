@@ -64,7 +64,7 @@ Clone the repository.
 ```bash
 git clone https://github.com/JoseAyobami/peer.git
 
-cd customer-registry-api
+cd peer
 ```
 
 Create and activate a virtual environment.
