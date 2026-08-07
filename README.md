@@ -93,6 +93,8 @@ Create a `.env` file in the project root.
 DATABASE_URL=<your_database_connection_string>
 LOG_LEVEL=<log_level>
 ENV=<environment>
+
+> The project is configured to work with SQLite by default, but any SQLAlchemy-supported database can be used by updating `DATABASE_URL`.
 ```
 
 
@@ -205,19 +207,7 @@ The project includes tests covering:
 
 ---
 
-## Future Improvements
 
-- Authentication and authorization
-- Rate limiting
-- PostgreSQL support
-- Docker support
-- CI/CD pipeline
-- Audit logging
-- Soft delete
-- Redis caching
+## AI disclosure
 
----
-
-## License
-
-This project is provided for educational and assessment purposes.
+GitHub Copilot was used for development assistance. All implementation decisions, code review, testing, and final integration were completed by me.
