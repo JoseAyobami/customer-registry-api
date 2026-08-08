@@ -62,9 +62,9 @@ customer-registry-api/
 Clone the repository.
 
 ```bash
-git clone https://github.com/JoseAyobami/peer.git
+git clone https://github.com/JoseAyobami/customer-registry-api
 
-cd peer
+cd customer-registry-api
 ```
 
 Create and activate a virtual environment.
@@ -94,7 +94,7 @@ DATABASE_URL=<your_database_connection_string>
 LOG_LEVEL=<log_level>
 ENV=<environment>
 
-> The project is configured to work with SQLite by default, but any SQLAlchemy-supported database can be used by updating `DATABASE_URL`.
+> The project is configured to work with SQLite by default.
 ```
 
 
@@ -159,11 +159,6 @@ Run with verbose output.
 pytest -v
 ```
 
-Run with coverage.
-
-```bash
-pytest --cov=app --cov-report=html
-```
 
 ---
 
