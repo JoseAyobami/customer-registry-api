@@ -1,10 +1,7 @@
 from __future__ import annotations
-import hashlib
-import json
 import logging
 from uuid import UUID, uuid4
 
-from fastapi import HTTPException, status
 from sqlalchemy import func, or_, select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
